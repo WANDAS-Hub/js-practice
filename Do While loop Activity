@@ -1,0 +1,14 @@
+//6 Do while loop activity
+const correctPassword = "correctPassword";
+let userPassword;
+
+do {
+    // Prompt the user for a password
+    userPassword = prompt("Enter your password:");
+
+    if (userPassword !== correctPassword) {
+        console.log("Incorrect, try again.");
+    }
+} while (userPassword !== correctPassword);
+
+console.log("Access granted.");
