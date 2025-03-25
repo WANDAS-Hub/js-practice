@@ -1,0 +1,31 @@
+//3 Switch Statement Activity
+
+// Prompt the user to enter a day of the week
+let day = prompt("Enter a day of the week:").toLowerCase();
+
+// Use switch statement to assign tasks based on the entered day
+switch (day) {
+    case "monday":
+        console.log("Your task for Monday is: Finish your assignments.");
+        break;
+    case "tuesday":
+        console.log("Your task for Tuesday is: Study for exams.");
+        break;
+    case "wednesday":
+        console.log("Your task for Wednesday is: Attend club meetings.");
+        break;
+    case "thursday":
+        console.log("Your task for Thursday is: Work on your project.");
+        break;
+    case "friday":
+        console.log("Your task for Friday is: Prepare for the weekend.");
+        break;
+    case "saturday":
+        console.log("Your task for Saturday is: Relax and enjoy.");
+        break;
+    case "sunday":
+        console.log("Your task for Sunday is: Plan for the next week.");
+        break;
+    default:
+        console.log("Invalid day! Please enter a valid day of the week.");
+}
